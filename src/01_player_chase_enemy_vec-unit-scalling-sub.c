@@ -11,6 +11,7 @@ static const int player_radius  = 10;
 
 int main() {
     InitWindow(screen_width, screen_height, "Player Movement");
+    SetTargetFPS(60);
 
     enemy_position = (Vector2) { screen_width*1.0f/2, screen_height*1.0f/2 };
     player_position= (Vector2) { 0+player_radius, 0+player_radius};

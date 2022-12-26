@@ -9,6 +9,7 @@ static int player_radius;
 
 int main() {
     InitWindow(screen_width, screen_height, "Player Movement");
+    SetTargetFPS(60);
 
     player_position = (Vector2) { screen_width*1.0f/2, screen_height*1.0f/2 };
     player_radius = 10;
