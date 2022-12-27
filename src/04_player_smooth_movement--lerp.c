@@ -45,7 +45,7 @@ static void draw() {
 
 int main() {
     InitWindow(screen_width, screen_height, "Player Movement");
-    SetTargetFPS(95);
+    SetTargetFPS(60);
 
     init();
 
